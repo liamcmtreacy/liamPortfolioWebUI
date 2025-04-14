@@ -1,5 +1,6 @@
 <footer>
-    <h3>Liam Treacy portfolio, copyright 2025</h3>
+    <h3> © 2025, Liam Treacy Portfolio. All Rights Reserved
+    </h3>
 </footer>
  
 <style> 
@@ -7,7 +8,6 @@
 footer {
     background-color: rgba(255, 89, 0, 0.967);
     color: white;
-    text-align: left;
     padding: 0.25rem;
     position: relative;
     bottom: 0;

@@ -1,1 +1,0 @@
-<h1> If you are interested in my course "Computing in Interactive Digital Art and Design" here is the link to the information page on SETU Carlow</h1>
