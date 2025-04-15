@@ -1,13 +1,13 @@
 <script>
+	import Page from "../../routes/+page.svelte";
+
  
 </script>
-
 <nav>
     <ul>
         <li><a href = "/"> Home Page</a></li>
         <li><a href = "/art"> My Artwork</a></li>
         <li><a href = "/games"> Games I have created</a></li>
-        <li><a href = "/IDAD"> Details about IDAD </a></li>
         <li><a href = "/Whales"> The World of Whales </a></li>
         <li><a href = "/contact"> Contact Me </a></li>
         <li><a href = "/AboutMe"> About Me </a></li>
@@ -15,9 +15,14 @@
 </nav>
 
     <style>
+
         nav {
             background-color: #000000;
+            width: 100%;
+            margin-left: -20px;
+            position: fixed; /*Found online, that this will keep the NAV Bar from scrolling, I think this could be a good feature have as it could allow for ease of access to other pages */
         }
+
         nav ul {
             list-style: none;
             padding: 0;

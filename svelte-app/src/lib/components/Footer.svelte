@@ -1,3 +1,7 @@
+<!--<footer1>
+    <h3>Hello, welcome to my personal Portfolio</h3>
+</footer1> -Going to try and put this above the Nav Bar, think it might look good--> <!---Scrapped idea for a second footer-->
+
 <footer>
     <h3> © 2025, Liam Treacy Portfolio. All Rights Reserved
     </h3>
@@ -5,15 +9,22 @@
  
 <style> 
 
-footer {
-    background-color: rgba(255, 89, 0, 0.967);
+h3 {
+    font-family: 'Times New Roman', Times, serif;
     color: white;
+}
+footer {
+    background-color: rgba(0, 115, 255, 0.967);
     padding: 0.25rem;
     position: relative;
     bottom: 0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Times New Roman', Times, serif;
     width: 100%;
+    margin-left: -5px;
 }
+
+
+
 
 @media (max-width: 768px) {
 
