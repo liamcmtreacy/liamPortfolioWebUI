@@ -21,6 +21,7 @@ footer {
     font-family: 'Times New Roman', Times, serif;
     width: 100%;
     margin-left: -5px;
+    margin-bottom: -15px;
 }
 
 
