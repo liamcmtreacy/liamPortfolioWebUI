@@ -19,7 +19,7 @@
 <div class = "contactInfo">
     <Card 
         title = "Phone" 
-        src=""
+        src="./phoneDraw.png"
         alt="Drawing of Phone"
         description ="My phone number is: 085-211-1818"
     /> 
@@ -27,35 +27,36 @@
         title = "Github" 
         src="./githubDrawing.png" 
         alt="Github DrawingS"
-        description = "If you would like to add me on Github, my name is Liamcmtreacy"
+        description = "If you would like to add me on Github, my name is Liamcmtreacy, you can also follow this link:
+        https://github.com/liamcmtreacy?tab=repositories"
         />
     <Card 
         title = "Linkedin" 
-        src="" 
+        src="./linked.png" 
         alt="Hello, I'm Liam Treacy, this is my portrait" 
-        description = ""
+        description = "The following link will take you directly to my Linkedin: https://www.linkedin.com/in/liam-treacy-cw/"
     />
 
     <Card 
         title = "Emails" 
-        src="" 
+        src="./emailDraw.png" 
         alt="" 
         description="My personal Email is: Liamtreacy100@hotmail.com, my college Email is: C00298242@setu.ie"
     />
 </div>
 
 <style>
-    h1 {color: #5aa1ed; 
+    h1 {color: #000000; 
     font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
-    border-bottom: #5aa1ed;}
+    border-bottom: #000000;}
 
     .contactInfo { /*PUT THEM ALL IN ONE DIV CLASS */
         display: flex; 
         align-content: center;
         justify-content: space-between; /*allows white space */
+        word-spacing: normal;
     }
-    
 
     @media (max-width: 768px) {
 .contactInfo {

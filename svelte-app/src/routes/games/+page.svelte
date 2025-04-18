@@ -30,6 +30,9 @@ The goal of the game is too collect the fruit on the screen to feed the resident
     and get quicker the higher your score, so the more you play, the more difficult it is going to be. The game has a health bar system, your health bar color changes when you get hit, going from Green to Yellow to Red, you have 5 lives, every time you get hit you lose a life.    
 </p>
 <img id = "code" src = "/mmCode.png" alt = "code from the game">
+
+
+<a href = "https://github.com/KenPowerClassroom/programming-project-semester-2-liamcmtreacy">Link to the Github repository for Magnet Misadventure</a>
 </div>
 
 <div class = "part3">
@@ -53,7 +56,7 @@ The goal of the game is too collect the fruit on the screen to feed the resident
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(200px));
         gap: 10px;
-        background-color: #1e676b88;
+        background-color: #0059ff88;
         padding: 30px;
         border: solid black 2px;
     }

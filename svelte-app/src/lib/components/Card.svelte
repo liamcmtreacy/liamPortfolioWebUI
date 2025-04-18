@@ -15,7 +15,7 @@
 <div class = "content">
     <h2>{title}</h2>
 </div>
-<p transition:fade>{expanded ? description : description.substring(0, 15) + '...'}</p>
+<p transition:fade>{expanded ? description : description.substring(0, 5) + '...'}</p>
 <button class="read-more" on:click={() => expanded = !expanded}>
     {expanded ? "Read Less" : "Read More"}
 </button>

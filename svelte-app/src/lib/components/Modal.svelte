@@ -8,7 +8,7 @@
     <div class = "modal-overlay" transition:fade>
         <div class = "modal-content" transition:scale= {{duration: 300}}> 
             <h2>{title}</h2>
-            <p>Special Thanks to our lecturers for WEB UI Design, Libor Zachoval and Milu Phillip
+            <p>If
             </p>
             <button on:click={() => isOpen = false}>Close</button>
     </div>

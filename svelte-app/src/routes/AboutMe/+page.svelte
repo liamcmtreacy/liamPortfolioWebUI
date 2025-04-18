@@ -1,11 +1,13 @@
 <div class = "aboutGrid">
 <h1>About Me</h1>
-<p> My name is Liam Treacy, I was born on February 24th 2004 in county Kilkenny <br>
+<p> My name is Liam Treacy, I was born on February 24th 2004 in county Kilkenny, I currently live in Ballinkillen County Carlow<br>
 I am always interested to improve my skills, or to try a different way of completing a task, I am currently in my second year of Computing in Interactive Digital Art and Design, I will graduate in 2027.
 I hope to obtain a career working in Animation, my ultimate goal would be too have my own animated series one day.</p>
 
-<p> I currently work in the Eddie Rockets Diner in Shamrock Plaza, Carlow, attached below is a copy of my CV  </p>
+<p> I currently work in the Eddie Rockets Diner in Shamrock Plaza, Carlow, I am also a volunteer at Visual Gallery and Theathre in Carlow attached below is a copy of my CV  </p>
 
+
+<h1>Events I've taken part in</h1>
 <h1>Dingle 2025</h1>
 <img id = "dinglePhoto" src = "/dingle.png" alt = "Two of my classmates and I at Dingle Animation Festival">
 <p> During March 2025, I had the pleasure of attending Dingle Animation Festival as a part of my course, we attended from March 20th - March 22nd, during this event it was amazing to meet many industry professionals,
@@ -23,6 +25,7 @@ I hope to obtain a career working in Animation, my ultimate goal would be too ha
         grid-template-columns: repeat(auto-fit, minmax(200px));
         gap: 10px;
         background-color: #ffffff;
+        border: solid black 2px;
         padding: 30px;
     }
 
