@@ -21,7 +21,7 @@
         title = "Phone" 
         src="./phoneDraw.png"
         alt="Drawing of Phone"
-        description ="My phone number is: 085-211-1818"
+        description ="My personal phone number is: 085-211-1818"
     /> 
     <Card 
         title = "Github" 
@@ -32,7 +32,7 @@
         />
     <Card 
         title = "Linkedin" 
-        src="./linked.png" 
+        src="./" 
         alt="Hello, I'm Liam Treacy, this is my portrait" 
         description = "The following link will take you directly to my Linkedin: https://www.linkedin.com/in/liam-treacy-cw/"
     />
@@ -40,8 +40,8 @@
     <Card 
         title = "Emails" 
         src="./emailDraw.png" 
-        alt="" 
-        description="My personal Email is: Liamtreacy100@hotmail.com, my college Email is: C00298242@setu.ie"
+        alt="drawing of a blue envelope, used as the image to depict the contact email" 
+        description="If you would like to contact me via email, you can contact me personally by emailing Liamtreacy100@hotmail.com, or you can contact me via my college email by messaging C00298242@setu.ie"
     />
 </div>
 
