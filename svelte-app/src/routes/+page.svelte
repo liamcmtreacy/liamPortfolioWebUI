@@ -4,6 +4,10 @@
 
 <img id = "me" src = "./liamPic.jpg" alt = "portrait of me with a black and white filter">
 
+<a href="/liamCV.pdf" download="My_CV.pdf" aria-label="Download My CV">
+    <span aria-hidden="true">⬇️</span> Download My CV
+  </a>
+
 <style>
 
     h1 {
@@ -17,16 +21,38 @@
 
     h2 {
        text-align: left;
-       padding-top: -90px;
     }
 
     #me {
         border: solid black 2px;
         width: auto;
+        max-width: 100%;
         height: 500px;
+        border-radius: 10px;
+
     }
 
     :global(body){ /*FOUND HOW TO DO THIS ON STACK OVERFLOW, LINK IN README */
         background-color: burlywood;
+
     }
+
+    a { 
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(148, 60, 2);
+    color: rgb(255, 255, 255);
+}
+
+@media (max-width: 768px) {
+h1 {
+    margin-top: 100px;
+}
+}
 </style>

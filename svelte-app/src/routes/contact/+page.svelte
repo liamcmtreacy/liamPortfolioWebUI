@@ -15,7 +15,7 @@
 <h1> Here you can find any relevant contact information for me!</h1>
 
 <!---help from Libor restructing this site on project 1-->
-<!---Going to use custom drawings for the images, not done yet-->
+<!---Going to use custom drawings for the images-->
 <div class = "contactInfo">
     <Card 
         title = "Phone" 
@@ -32,7 +32,7 @@
         />
     <Card 
         title = "Linkedin" 
-        src="./" 
+        src="./linkedIN.png" 
         alt="Hello, I'm Liam Treacy, this is my portrait" 
         description = "The following link will take you directly to my Linkedin: https://www.linkedin.com/in/liam-treacy-cw/"
     />
@@ -46,16 +46,24 @@
 </div>
 
 <style>
-    h1 {color: #000000; 
-    font-size: 25px;
-    font-family: 'Courier New', Courier, monospace;
-    border-bottom: #000000;}
+  
+  h1 {
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        border-bottom: solid black 2px;
+    }
+
 
     .contactInfo { /*PUT THEM ALL IN ONE DIV CLASS */
         display: flex; 
         align-content: center;
         justify-content: space-between; /*allows white space */
         word-spacing: normal;
+    }
+
+    .contactInfo:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 15px rgba (0, 0, 0, 0.15);
     }
 
     @media (max-width: 768px) {

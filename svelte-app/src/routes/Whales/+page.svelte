@@ -20,6 +20,19 @@
     z-index: -10000;
 }
 
+a { 
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(148, 60, 2);
+    color: rgb(255, 255, 255);
+}
+
 @keyframes gifs {
          0%, 100% { 
              background-image: url('/whaleCrash.gif');

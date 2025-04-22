@@ -32,20 +32,26 @@ The goal of the game is too collect the fruit on the screen to feed the resident
 <img id = "code" src = "/mmCode.png" alt = "code from the game">
 
 
-<a href = "https://github.com/KenPowerClassroom/programming-project-semester-2-liamcmtreacy">Link to the Github repository for Magnet Misadventure</a>
+<a href = "https://github.com/KenPowerClassroom/programming-project-semester-2-liamcmtreacy">
+    Link to the Github repository for Magnet Misadventure</a>
 </div>
 
 <div class = "part3">
     <h2> Artefact Brawler</h2>
     <img id = "ABtitle" src = "/ABsplash.png" alt = "Pixel art of Artefact Brawler's homescreen">
-    <p>Artefact Brawler was our final project for the Module "Game Design". I was on a team with 3 of my other classmates, we managed to get a perfect grade for this project, the game is similar to "Super Smash Bros",
-        it is a 2D beat em up arcade game, where the objective is too attack the opposition and get as many hit combos as you can. <br>
+    <p>Artefact Brawler was our final project for the Module "Game Design". I was on a team with 3 of my other classmates, we managed to get a perfect grade for this project, the game is similar to Super Smash Bros Home Run Contest. 
+        It is a 2D beat em up arcade game, where the objective is too attack the opposition and get as many hit combos as you can. <br>
 
-        For this project I mainly worked on the art side, along with programming the Up Attack and Bouncepads, I also edited the trailer for the Project.
+        For this project I mainly worked on the art side, along with programming some attacks and the bouncepads, I also edited the trailer for the Project.
     </p>
 
     <a href = "https://setuo365-my.sharepoint.com/personal/c00298242_setu_ie/_layouts/15/stream.aspx?id=%2Fpersonal%2Fc00298242%5Fsetu%5Fie%2FDocuments%2FTrailer%5FFolder%2FTrailer%2Emov&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Ed7995f26%2Db2ea%2D4d24%2Db613%2D82c8163ac89f&isDarkMode=false"> Link to Artefact Brawler Trailer</a>
     <h2>Game Elements</h2>
+    <img id = "gameplay" src = "/gameplayAB.png" alt = "gameplay of Artefact Brawler">
+    <img id = "shopForAB" src = "/shopForAB.png" alt = "background which I created in Artefact Brawler">
+
+    <p> Artefact Brawler has a timer which counts down, this creates a sense of urgency for the player, the sandbag can be hit in all directions, from any directions. There is also a store where you can purchase more powerful attacks from the coins, the coins are gained from getting higher combos. The sandbag percentage will keep getting higher, there is no limit, because we wanted to have a sense of replayability.</p>
+    <a href = "https://github.com/PeterLowe/prototype24-yellow.git">Link to Artefact Brawler Github repository</a>
 
 </div>
 </div>
@@ -56,13 +62,24 @@ The goal of the game is too collect the fruit on the screen to feed the resident
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(200px));
         gap: 10px;
-        background-color: #0059ff88;
+        background-color: #ffffff88;
         padding: 30px;
         border: solid black 2px;
     }
 
+    #gameplay {
+        border: solid black 2px;
+        border-radius: 10px;
+    }
+
+    #shopForAB {
+        border: solid black 2px;
+        border-radius: 10px;
+    }
+
     #ABtitle {
         border: solid black 2px;
+        border-radius: 10px;
     }
 
     .part1 {
@@ -84,29 +101,34 @@ The goal of the game is too collect the fruit on the screen to feed the resident
         width: 500px;
         height: auto;
         border: solid black 2px;
+        border-radius: 10px;
     }
 
     #goodEnd {
         width: 750px;
         height: auto;
-        border: solid black 2px;
+        border: solid black 2px;        
+        border-radius: 10px;
     }
 
     #MMending {
         width: 500px;
         height: auto;
         border: solid black 2px;
+        border-radius: 10px;
     }
 
     #code {
         width: 500px;
         height: auto;
         border: solid black 2px;
+        border-radius: 10px;
     }
 
     p {
         text-align: left;
         font-family: 'Times New Roman', Times, serif;
+    
     }
 
     h2 {
@@ -118,5 +140,19 @@ The goal of the game is too collect the fruit on the screen to feed the resident
     h1 {
         font-family: 'Times New Roman', Times, serif;
         font-weight: bold;
+        border-bottom: solid black 2px;
     }
+
+    a { 
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(6, 7, 110);
+    color: rgb(255, 255, 255);
+}
 </style>
