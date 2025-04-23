@@ -1,21 +1,25 @@
 <div class = "aboutGrid">
 <h1>About Me</h1>
-<p> My name is Liam Treacy, I was born on February 24th 2004 in county Kilkenny, I currently live in Ballinkillen County Carlow<br>
+<p> My name is Liam Treacy, I was born on February 24th 2004 in county Kilkenny, I currently live in Ballinkillen County Carlow. <br>
+
 I am always interested to improve my skills, or to try a different way of completing a task, I am currently in my second year of Computing in Interactive Digital Art and Design, I will graduate in 2027.
 I hope to obtain a career working in Animation, my ultimate goal would be to zn animated series of my own one day.</p>
 
 <p> I currently work in the Eddie Rockets Diner in Shamrock Plaza, Carlow, I am also a volunteer at Visual Gallery and Theathre in Carlow.
 
 <h1>Events I've taken part in</h1>
-<h2>Dingle 2025</h2>
+<h2>Dingle Animation Festival 2025</h2>
 <img id = "dinglePhoto" src = "./dingle.png" alt = "Two of my classmates and I at Dingle Animation Festival">
 <p> From March 20th - 22nd 2025, I had the pleasure of attending Dingle Animation Festival as a part of my course. During this event it was amazing to meet many lovely industry professionals, who offered their advice and I was able to gain many new Linkedin connections.
     Some other highlights include learning to draw with Will Sliney, taking part in the Pitch for a Pint event and showing my ideas to an executive, and seeing the sights of Dingle, Kerry. <br>
     <a href = "https://www.setu.ie/news/setu-students-shortlisted-at-dingle-animation-festival">We also had an article written about us for SETU Carlow</a>
 </p>
-<img id = "dingleTrio" src = "./dingleTrio.png" alt = "group of us from Dingle">
+<img id = "dingleTrio" src = "/dingleTrio.png" alt = "group of us from Dingle">
 
-<h2>Brownbag Films</h2>
+<img id ="Pitch" src = "/SCR.png" alt = "sketch of the pitch I had for Dingle">
+<p>The idea I pitched was "Sidney City Residents" which is the cartoon I have always wanted to make.</p>
+
+<h2>Brownbag Films </h2>
 </div>
 
 
@@ -31,6 +35,12 @@ I hope to obtain a career working in Animation, my ultimate goal would be to zn 
     }
 
     img {
+        border-radius: 10px;
+        border: solid black 2px;
+    }
+
+    #Pitch {
+        align-items: center;
         border-radius: 10px;
         border: solid black 2px;
     }
@@ -58,5 +68,40 @@ p {
     text-align: left;
 }
 
+@media (max-width: 768px) {
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+p {
+    font-size: 20px;
+    padding: 10px;
+}
+
+#dinglePhoto {
+width: 350px;
+height: auto;
+flex-direction: column;
+}
+
+#dingleTrio {
+width: 350px;
+height: auto;
+flex-direction: column;
+}
+
+#Pitch {
+width: 350px;
+height: auto;
+flex-direction: column;
+}
+}
 
 </style>

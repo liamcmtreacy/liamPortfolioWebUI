@@ -2,9 +2,9 @@
 <h1>Hello, my name is Liam Treacy</h1>
 <h2>I am a student at SETU Carlow studying Computing in Interactive Digital Art and Design, welcome to my Portfolio</h2>
 
-<img id = "me" src = "./liamPic.jpg" alt = "portrait of me with a black and white filter">
+<img id = "me" src = "/portrait.png" alt = "portrait of me with a black and white filter"> <!---I acknowledge how goofy the photo looks-->
 
-<a href="/liamCV.pdf" download="My_CV.pdf" aria-label="Download My CV">
+<a href="/liamCV.pdf" download="My_CV.pdf" aria-label="Download My CV"> <!---CV WHICH CAN BE DOWNLOADED, HELP FROM LIBOR-->
     <span aria-hidden="true">⬇️</span> Download My CV
   </a>
 
@@ -53,6 +53,12 @@ a:hover {
 @media (max-width: 768px) {
 h1 {
     margin-top: 100px;
+}
+
+#me {
+width: 350px;
+height: auto;
+flex-direction: column;
 }
 }
 </style>

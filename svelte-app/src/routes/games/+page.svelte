@@ -1,7 +1,7 @@
-<div class = "style">
+<div class = "style"> <!----MOST LINES OF CODE DUE TO ALL THE IDS-->
 <h1> Here are games I have created during my time in SETU Carlow</h1>
 
-<div class = "part1">
+<div class = "part1"> <!---EACH OF THE 3 GAMES ARE BROKEN INTO PARTS, ANGRY MAN UTOPIA PART 1-->
 <h2>Angry Man's Utopia </h2>
 <img id = "AMU" src = "/AMU.png" alt = "screenshot of the game I created called Angry Man's Utopia">
 
@@ -18,8 +18,8 @@ The goal of the game is too collect the fruit on the screen to feed the resident
 
 <a href = "https://ui-programming-24-25.codeberg.page/Liam_Treacy_C00298242_ProgProject/">Link to the live version of Angry Man's Utopia</a>
 </div>
-
-<div class = "part2">
+<!----end of part 1, the ANGRY MAN UTOPIA SECTION-->
+<div class = "part2"> <!---PART TWO: MAGNET MISADVENTURE, NEW DIV-->
 <h2> Magnet Misadventure</h2>
 <img id = "MMending" src = "/endScreen1.png" alt = "Title screen for Magnet Misadventure, my game from first year">
 <p> Magnet Misadventure was my final project for my first year module "Introduction to Object Orientated Programming". The game was created in C++ SFML, the game is an arcade score attack game where you play as a magnet and have to shoot
@@ -34,9 +34,9 @@ The goal of the game is too collect the fruit on the screen to feed the resident
 
 <a href = "https://github.com/KenPowerClassroom/programming-project-semester-2-liamcmtreacy">
     Link to the Github repository for Magnet Misadventure</a>
-</div>
+</div> <!----END OF PART 2-->
 
-<div class = "part3">
+<div class = "part3"> <!----FINAL PART, THIS IS THE DIV ABOUT ARTEFACT BRAWLER-->
     <h2> Artefact Brawler</h2>
     <img id = "ABtitle" src = "/ABsplash.png" alt = "Pixel art of Artefact Brawler's homescreen">
     <p>Artefact Brawler was our final project for the Module "Game Design". I was on a team with 3 of my other classmates, we managed to get a perfect grade for this project, the game is similar to Super Smash Bros Home Run Contest. 
@@ -53,8 +53,8 @@ The goal of the game is too collect the fruit on the screen to feed the resident
     <p> Artefact Brawler has a timer which counts down, this creates a sense of urgency for the player, the sandbag can be hit in all directions, from any directions. There is also a store where you can purchase more powerful attacks from the coins, the coins are gained from getting higher combos. The sandbag percentage will keep getting higher, there is no limit, because we wanted to have a sense of replayability.</p>
     <a href = "https://github.com/PeterLowe/prototype24-yellow.git">Link to Artefact Brawler Github repository</a>
 
-</div>
-</div>
+</div> <!----END OF THE THIRD PART-->
+</div> <!----END OF STYLE GRID-->
 
 <style>
 
@@ -155,4 +155,66 @@ a:hover {
     background-color: rgb(6, 7, 110);
     color: rgb(255, 255, 255);
 }
+
+  /*MOBILE RESPOVINESS TESTED BASICALLY ALL WITH TRIAL AND ERROR FOR THE SECOND TIME*/
+  @media (max-width: 768px) {
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+p {
+    font-size: 20px;
+    padding: 10px;
+}
+
+#ABtitle {
+width: 350px;
+height: auto;
+flex-direction: column;
+}
+
+#goodEnd {
+width: 350px;
+height: auto;
+flex-direction: column;
+}
+
+#AMU {
+width: 350px; /*height stays auto for Herman Melville as the image looks bad with the wider stretched looks*/
+height: auto;
+flex-direction: column;
+}
+
+#MMending {
+width: 350px;
+height: auto;
+flex-direction: column;
+}
+
+#code {
+width: 350px;
+height: auto;
+flex-direction: column;
+}
+
+#gameplay {
+width: 350px;
+height: auto;
+flex-direction: column;
+}
+
+#shopForAB {
+width: 350px;
+height: auto;
+flex-direction: column;
+}
+}
+
 </style>

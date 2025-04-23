@@ -20,6 +20,12 @@
     z-index: -10000;
 }
 
+h1 {
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        border-bottom: solid black 2px;
+    }
+
 a { 
     display: block;
     text-align: center;
@@ -38,5 +44,13 @@ a:hover {
              background-image: url('/whaleCrash.gif');
              opacity: 0.3;
          }   
+         }
+
+         @media (max-width: 768px) {
+            h1 {
+        font-size: 36px;
+        text-align: center;
+        margin-top: 100px;
+            }
          }
 </style>
