@@ -48,10 +48,13 @@
 <style>
   
   h1 {
-        font-family: 'Times New Roman', Times, serif;
-        font-weight: bold;
-        border-bottom: solid black 2px;
-    }
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: solid black 2px;
+}
 
 
     .contactInfo { /*PUT THEM ALL IN ONE DIV CLASS */

@@ -15,8 +15,9 @@ The goal of the game is too collect the fruit on the screen to feed the resident
 <img id = "goodEnd" src = "/goodEnding.png" alt = "screenshot of the good ending from my game">
 <p>The game has a simple ranking system, which works by taking your current score and comparing it to values in a large if statement, if you score falls between certain values i.e. 0 - 100, you will be given the corresponding rank, 
     they range from E - S+, the game is published on Codeberg instead of Github. The game's multiple endings works simple by checking if your score is above or below 0, and whichever it is, will redirect you to a new page with the good or bad ending, the game also has audio present. </p>
-
-<a href = "https://ui-programming-24-25.codeberg.page/Liam_Treacy_C00298242_ProgProject/">Link to the live version of Angry Man's Utopia</a>
+    
+    <a href = "https://ui-programming-24-25.codeberg.page/Liam_Treacy_C00298242_ProgProject/">Link to the live version of Angry Man's Utopia</a>
+    <a href = "https://codeberg.org/UI-Programming-24-25/Liam_Treacy_C00298242_ProgProject"> Link to Codeberg Repository for Angry Man's Utopia</a>
 </div>
 <!----end of part 1, the ANGRY MAN UTOPIA SECTION-->
 <div class = "part2"> <!---PART TWO: MAGNET MISADVENTURE, NEW DIV-->
@@ -152,7 +153,7 @@ The goal of the game is too collect the fruit on the screen to feed the resident
 }
 
 a:hover {
-    background-color: rgb(6, 7, 110);
+    background-color: rgb(148, 60, 2);
     color: rgb(255, 255, 255);
 }
 

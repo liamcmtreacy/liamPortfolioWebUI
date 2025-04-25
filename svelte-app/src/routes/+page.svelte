@@ -4,9 +4,13 @@
 
 <img id = "me" src = "/portrait.png" alt = "portrait of me with a black and white filter"> <!---I acknowledge how goofy the photo looks-->
 
+<h3>Have a look around, hopefully you like what you see!</h3>
+
 <a href="/liamCV.pdf" download="My_CV.pdf" aria-label="Download My CV"> <!---CV WHICH CAN BE DOWNLOADED, HELP FROM LIBOR-->
     <span aria-hidden="true">⬇️</span> Download My CV
   </a>
+
+
 
 <style>
 
@@ -21,6 +25,12 @@
 
     h2 {
        text-align: left;
+       font-family:'Times New Roman', Times, serif;
+    }
+
+    h3 {
+        text-align: center;
+        font-family:'Times New Roman', Times, serif;
     }
 
     #me {

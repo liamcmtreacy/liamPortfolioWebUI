@@ -8,6 +8,7 @@
         <li><a href = "/"> Home Page</a></li>
         <li><a href = "/art"> My Artwork</a></li>
         <li><a href = "/games"> Games I have created</a></li>
+        <li><a href = "/college">My Studies</a></li>
         <li><a href = "/Whales"> The World of Whales </a></li>
         <li><a href = "/contact"> Contact Me </a></li>
         <li><a href = "/AboutMe"> About Me </a></li>

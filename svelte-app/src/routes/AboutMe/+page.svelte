@@ -5,7 +5,7 @@
 I am always interested to improve my skills, or to try a different way of completing a task, I am currently in my second year of Computing in Interactive Digital Art and Design, I will graduate in 2027.
 I hope to obtain a career working in Animation, my ultimate goal would be to zn animated series of my own one day.</p>
 
-<p> I currently work in the Eddie Rockets Diner in Shamrock Plaza, Carlow, I am also a volunteer at Visual Gallery and Theathre in Carlow.
+<p> I currently work in the Eddie Rockets Diner in Shamrock Plaza, Carlow, I am also a volunteer at Visual Gallery and Theathre in Carlow. My future plan is too enroll in the IADT DL931 Animation Masters once I graduate.
 
 <h1>Events I've taken part in</h1>
 <h2>Dingle Animation Festival 2025</h2>
@@ -16,10 +16,14 @@ I hope to obtain a career working in Animation, my ultimate goal would be to zn 
 </p>
 <img id = "dingleTrio" src = "/dingleTrio.png" alt = "group of us from Dingle">
 
-<img id ="Pitch" src = "/SCR.png" alt = "sketch of the pitch I had for Dingle">
-<p>The idea I pitched was "Sidney City Residents" which is the cartoon I have always wanted to make.</p>
-
 <h2>Brownbag Films </h2>
+<p> On April 24th 2025, I had the pleasure of attending a Brown Bag Films event, where their staff gave talks about Storyboarding, the use of Unreal Engine in animation and Animation Directing, afterwards there was an hour for Networkiug where I had the chance to speak to their staff and talk, including co-founder Darrah O'Connell and Matthew Lloyd</p>
+
+<h2>The Dream</h2>
+<img id ="Pitch" src = "/SCR.png" alt = "sketch of the pitch I had for Dingle">
+<p>The idea I pitched in Dingle to an executive was "Sidney City Residents" which is the cartoon I have always wanted to make. The show revolves around Dan Dillard and Jack Calvin, two middle aged men living in Sidney City, a large city on the island of Zsiel, based on Carlow Ireland. The show would be 18+ and have a 22 minute episode format. </p>
+
+
 </div>
 
 
@@ -66,6 +70,7 @@ p {
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     text-align: left;
+    padding: 10px;
 }
 
 @media (max-width: 768px) {
