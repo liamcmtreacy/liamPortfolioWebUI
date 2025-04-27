@@ -14,7 +14,14 @@
 <img id = "sprite" src = "/aseprite.png" alt = "aseprite drawing of my art style">
 
 <p> Asperite is a software I first learned in January 2024, I find it very enjoyable to use and see it as a great tool for backgrounds and characters, as I have used it for all the games I created,.As for Maya/3D modelling as a whole, I am still somewhat new to the process, as we only started learning it in January 2025, however I am rather hooked and do really enjoy seeing something come together, below I will attach a folder of some miscellanous art work I have done throughout my life</p>
-<a href = "https://setuo365-my.sharepoint.com/:f:/g/personal/c00298242_setu_ie/EvHRUtVvEl1Gv1n3K1pTKCsBvApblrRDsDrk8K_Rhy5MmQ?e=gGU6LT"> Link to Folder</a>
+
+<!---oh man-->
+<a href="/artwork.zip" download="liamTreacy_artwork.zip" aria-label="Download My Folder"> <!---FOLDER WHICH CAN BE DOWNLOADED, HELP FROM LIBOR-->
+    <span aria-hidden="true">⬇️</span> If you would like to access to a folder with more examples of my art, download this folder
+  </a>
+<!----So originally I had I created a folder on OneDrive and attached a link, however the link always seemed to not work, so then I tried downloading the folder frmo the onedrive and attaching it, i did not work,
+so then I tried to create a new folder on my laptop, then port over the materials and then put it into the project, and this finally worked-->
+<!----PROCESS was a lot of trial and error, I used the code Libor provided for the download and tried rework it-->
 </div>
 <style>
 

@@ -33,7 +33,7 @@
     <Card 
         title = "Linkedin" 
         src="./linkedIN.png" 
-        alt="Hello, I'm Liam Treacy, this is my portrait" 
+        alt="You will be redirected to my Linkedin if you use the link" 
         description = "The following link will take you directly to my Linkedin: https://www.linkedin.com/in/liam-treacy-cw/"
     />
 
@@ -66,7 +66,7 @@
 
     .contactInfo:hover {
         transform: translateY(-5px);
-        box-shadow: 0 6px 15px rgba (0, 0, 0, 0.15);
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /*only noticing that I originally had a space after the rgba which caused it to be white, fixed now */
     }
 
     @media (max-width: 768px) {

@@ -19,11 +19,6 @@ I hope to obtain a career working in Animation, my ultimate goal would be to zn 
 <h2>Brownbag Films </h2>
 <p> On April 24th 2025, I had the pleasure of attending a Brown Bag Films event, where their staff gave talks about Storyboarding, the use of Unreal Engine in animation and Animation Directing, afterwards there was an hour for Networkiug where I had the chance to speak to their staff and talk, including co-founder Darrah O'Connell and Matthew Lloyd</p>
 
-<h2>The Dream</h2>
-<img id ="Pitch" src = "/SCR.png" alt = "sketch of the pitch I had for Dingle">
-<p>The idea I pitched in Dingle to an executive was "Sidney City Residents" which is the cartoon I have always wanted to make. The show revolves around Dan Dillard and Jack Calvin, two middle aged men living in Sidney City, a large city on the island of Zsiel, based on Carlow Ireland. The show would be 18+ and have a 22 minute episode format. </p>
-
-
 </div>
 
 
@@ -39,12 +34,6 @@ I hope to obtain a career working in Animation, my ultimate goal would be to zn 
     }
 
     img {
-        border-radius: 10px;
-        border: solid black 2px;
-    }
-
-    #Pitch {
-        align-items: center;
         border-radius: 10px;
         border: solid black 2px;
     }
@@ -97,12 +86,6 @@ flex-direction: column;
 }
 
 #dingleTrio {
-width: 350px;
-height: auto;
-flex-direction: column;
-}
-
-#Pitch {
 width: 350px;
 height: auto;
 flex-direction: column;

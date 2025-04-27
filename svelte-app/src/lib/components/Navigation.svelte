@@ -19,8 +19,8 @@
 
         nav {
             background-color: #000000;
+            left: 0; /* The Nav Bar for some reason is off, so used this to put in the right place, originally did trial and error with Margin-Left but found this works better */
             width: 100%;
-            margin-left: -20px;
             position: fixed; /*Found online, that this will keep the NAV Bar from scrolling, I think this could be a good feature have as it could allow for ease of access to other pages */
         }
 
@@ -42,6 +42,7 @@
             font-weight: bold;
             font-family: 'Courier New', Courier, monospace;
             position: relative;
+            transition: 0.4s ease; /* from Blackboard Week 6.1 Notes, used on Nav Bar for a nice feel */
         }
 
         nav ul li a:hover {
