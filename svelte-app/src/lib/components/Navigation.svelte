@@ -1,17 +1,17 @@
 <script>
 	import Page from "../../routes/+page.svelte";
-
+    import {base} from '$app/paths';
  
 </script>
 <nav>
     <ul>
-        <li><a href = "/"> Home Page</a></li>
-        <li><a href = "/art"> My Artwork</a></li>
-        <li><a href = "/games"> Games I have created</a></li>
-        <li><a href = "/college">My Studies</a></li>
-        <li><a href = "/Whales"> The World of Whales </a></li>
-        <li><a href = "/contact"> Contact Me </a></li>
-        <li><a href = "/AboutMe"> About Me </a></li>
+        <li><a href = {`${base}/`}> Home Page</a></li>
+        <li><a href = {`${base}/art`}> My Artwork</a></li>
+        <li><a href = {`${base}/games`}> Games I have created</a></li>
+        <li><a href = {`${base}/college`}>My Studies</a></li>
+        <li><a href = {`${base}/Whales`}> The World of Whales </a></li>
+        <li><a href = {`${base}/contact`}> Contact Me </a></li>
+        <li><a href = {`${base}/AboutMe`}> About Me </a></li>
     </ul>
 </nav>
 

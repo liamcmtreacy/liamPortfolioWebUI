@@ -1,8 +1,13 @@
+<script>
+       import {base} from '$app/paths';
+</script>
+
+
 <h1>Here is the link to the website I made, as part of a group project</h1>
 <div class="gifBG">
     <div class="overlay"></div>
 </div>
-<a href= "https://liamcmtreacy.github.io/WebUI_LiamMikeyJess_groupProject/"> Link to The World of Whales</a> 
+<a href="https://liamcmtreacy.github.io/WebUI_LiamMikeyJess_groupProject/"> Link to The World of Whales</a> 
 <!---used same logic as links to parts of the same site, tested it with our website for an external link and works as intended-->
 
 <style>
@@ -39,13 +44,6 @@ a:hover {
     color: rgb(255, 255, 255);
 }
 
-@keyframes gifs {
-         0%, 100% { 
-             background-image: url('/whaleCrash.gif');
-             opacity: 0.3;
-         }   
-         }
-
          @media (max-width: 768px) {
             h1 {
         font-size: 36px;
@@ -54,3 +52,13 @@ a:hover {
             }
          }
 </style>
+
+{@html `<style>
+    @keyframes gifs { 
+        0%, 100% { 
+            background-image: url('${base}/whaleCrash.gif');
+            opacity: 0.5;
+            
+        }
+}
+</style`}

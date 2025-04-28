@@ -1,4 +1,6 @@
-
+<script>
+import {base} from '$app/paths';
+</script>
 <h1>Hello, my name is Liam Treacy</h1>
 <h2>I am a student at SETU Carlow studying Computing in Interactive Digital Art and Design, welcome to my Portfolio</h2>
 
@@ -6,7 +8,7 @@
 
 <h3>Have a look around, hopefully you like what you see!</h3>
 
-<a href="/liamCV.pdf" download="My_CV.pdf" aria-label="Download My CV"> <!---CV WHICH CAN BE DOWNLOADED, HELP FROM LIBOR-->
+<a href="{base}/liamCV.pdf" download="My_CV.pdf" aria-label="Download My CV"> <!---CV WHICH CAN BE DOWNLOADED, HELP FROM LIBOR-->
     <span aria-hidden="true">⬇️</span> Download My CV
   </a>
 

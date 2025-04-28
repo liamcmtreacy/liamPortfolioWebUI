@@ -19,27 +19,27 @@
 <div class = "contactInfo">
     <Card 
         title = "Phone" 
-        src="./phoneDraw.png"
+        src="{base}/phoneDraw.png"
         alt="Drawing of Phone"
         description ="My personal phone number is: 085-211-1818"
     /> 
     <Card 
         title = "Github" 
-        src="./githubDrawing.png" 
+        src="{base}/githubDrawing.png" 
         alt="Github DrawingS"
         description = "If you would like to add me on Github, my name is Liamcmtreacy, you can also follow this link:
         https://github.com/liamcmtreacy?tab=repositories"
         />
     <Card 
         title = "Linkedin" 
-        src="./linkedIN.png" 
+        src="{base}/linkedIN.png" 
         alt="You will be redirected to my Linkedin if you use the link" 
         description = "The following link will take you directly to my Linkedin: https://www.linkedin.com/in/liam-treacy-cw/"
     />
 
     <Card 
         title = "Emails" 
-        src="./emailDraw.png" 
+        src="{base}/emailDraw.png" 
         alt="drawing of a blue envelope, used as the image to depict the contact email" 
         description="If you would like to contact me via email, you can contact me personally by emailing Liamtreacy100@hotmail.com, or you can contact me via my college email by messaging C00298242@setu.ie"
     />

@@ -1,3 +1,7 @@
+<script>
+import {base} from '$app/paths';
+</script>
+
 <div class = "grid01">
 <h1> So what exactly am I studying?</h1>
 
