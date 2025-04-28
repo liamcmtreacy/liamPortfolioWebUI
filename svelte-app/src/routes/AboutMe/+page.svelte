@@ -21,7 +21,9 @@ I hope to obtain a career working in Animation, my ultimate goal would be to hav
 <img id="dingleTrio" src="{base}/dingleTrio.png" alt="group of us from Dingle">
 
 <h2>Brownbag Films </h2>
-<p> On April 24th 2025, I had the pleasure of attending a Brown Bag Films event, where their staff gave talks about Storyboarding, the use of Unreal Engine in animation and Animation Directing, afterwards there was an hour for Networking where I had the chance to speak to their staff and talk, including co-founder Darrah O'Connell and Matthew Lloyd.</p>
+<p> On April 24th 2025, I had the pleasure of attending a Brown Bag Films event, where their staff gave talks about Storyboarding, the use of Unreal Engine in animation and Animation Directing, afterwards there was an hour for Networking where I had the chance to speak to their staff and talk, including co-founder Darrah O'Connell and Matthew Lloyd.
+    I plan on attending more events in the future, and will update this as they happen.
+</p>
 
 </div>
 
