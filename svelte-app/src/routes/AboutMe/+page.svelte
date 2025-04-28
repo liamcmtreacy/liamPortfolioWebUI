@@ -69,13 +69,13 @@ p {
 @media (max-width: 768px) {
 
 h1 {
-    font-size: 36px;
+    font-size: 28px;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 h2 {
-    font-size: 28px;
+    font-size: 24px;
 }
 
 p {

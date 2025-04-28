@@ -19,6 +19,7 @@
 
         nav {
             background-color: #000000;
+            top: 0%; /*added due to responsivenss errors */
             left: 0; /* The Nav Bar for some reason is off, so used this to put in the right place, originally did trial and error with Margin-Left but found this works better */
             width: 100%;
             position: fixed; /*Found online, that this will keep the NAV Bar from scrolling, I think this could be a good feature have as it could allow for ease of access to other pages */

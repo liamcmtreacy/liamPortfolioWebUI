@@ -164,6 +164,10 @@ a:hover {
   /*MOBILE RESPOVINESS TESTED BASICALLY ALL WITH TRIAL AND ERROR FOR THE SECOND TIME*/
   @media (max-width: 768px) {
 
+    .style {
+        margin-top: 150px;
+    }
+
 h1 {
     font-size: 36px;
     text-align: center;

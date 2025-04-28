@@ -48,7 +48,7 @@ a:hover {
             h1 {
         font-size: 36px;
         text-align: center;
-        margin-top: 100px;
+        margin-top: 250px;
             }
          }
 </style>

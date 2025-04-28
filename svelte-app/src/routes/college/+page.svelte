@@ -51,7 +51,7 @@ a:hover {
 
 @media (max-width: 768px) {
     .grid01 {
-        margin-top: 100px;
+        margin-top: 200px;
     }
 }
 
