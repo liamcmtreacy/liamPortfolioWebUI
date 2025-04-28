@@ -166,6 +166,12 @@ a:hover {
 
     .style {
         margin-top: 150px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px));
+        gap: 10px;
+        background-color: #ffffff88;
+        padding: 30px;
+        border: solid black 2px;
     }
 
 h1 {

@@ -68,6 +68,16 @@ p {
 
 @media (max-width: 768px) {
 
+    .aboutGrid {
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px));
+        gap: 10px;
+        background-color: #ffffff88;
+        padding: 30px;
+        border: solid black 2px;
+    }
+
 h1 {
     font-size: 28px;
     text-align: center;
