@@ -4,7 +4,7 @@ import {base} from '$app/paths';
 <h1>Hello, my name is Liam Treacy</h1>
 <h2>I am a student at SETU Carlow studying Computing in Interactive Digital Art and Design, welcome to my Portfolio</h2>
 
-<img id = "me" src = "/portrait.png" alt = "portrait of me with a black and white filter"> <!---I acknowledge how goofy the photo looks-->
+<img id = "me" src = "{base}/portrait.png" alt = "portrait of me with a black and white filter"> <!---I acknowledge how goofy the photo looks-->
 
 <h3>Have a look around, hopefully you like what you see!</h3>
 
