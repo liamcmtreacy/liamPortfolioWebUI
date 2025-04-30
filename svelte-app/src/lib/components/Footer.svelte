@@ -13,26 +13,39 @@ h3 {
     font-family: 'Times New Roman', Times, serif;
     color: white;
 }
+
+
 footer {
     background-color: rgba(0, 115, 255, 0.967);
-    padding: 0.25rem;
+    padding: 0.02rem;
     position: relative;
-    bottom: 0;
     font-family: 'Times New Roman', Times, serif;
     width: 100%;
-    margin-left: -5px;
-    margin-bottom: -15px;
+    margin-bottom: -500px;
+    margin-top:  auto;
 }
-
 
 
 
 @media (max-width: 768px) {
 
     footer {
-        padding: 0.75rem;
+        padding: 0.6rem;
+        width: 100%;
         position: relative;
         font-size: 0.9rem;
     }
+}
+
+
+
+@media (max-width: 1024px) {
+
+footer {
+    padding: 0.75rem;
+    width: 100%;
+    position: relative;
+    font-size: 0.9rem;
+}
 }
 </style>

@@ -34,9 +34,12 @@ so then I tried to create a new folder on my laptop, then port over the material
         gap: 10px;
         background-color: #ffffff88;
         padding: 30px;
-        align-items: center; 
+        width: 100%;
+        max-width: 1200px;
+        justify-content: center;
         border: solid black 2px;
         flex-direction: column;
+        margin: 0 auto;
     }
 
 h1 {
@@ -93,6 +96,7 @@ a:hover {
 
     .stylingDiv {
         margin-top: 100px;
+        margin: 0 auto;
     }
             h1 {
         font-size: 36px;
@@ -119,4 +123,35 @@ a:hover {
             }
 
          }
+
+         @media (max-width: 1024px) {
+            .stylingDiv {
+        margin-top: 100px;
+    }
+            h1 {
+        font-size: 40px;
+        text-align: center;
+        margin-top: 100px;
+            }
+
+            #SCR {
+            width: 350px;
+            height: auto;
+            flex-direction: row;
+            }
+
+            #mayaHou {
+            width: 300px;
+            height: auto;
+            flex-direction: column;
+            }
+
+            #sprite {
+            width: auto;
+            height: auto;
+            flex-direction: column;
+            }
+
+         }
+         
 </style>

@@ -15,6 +15,7 @@ The goal of the game is too collect the fruit on the screen to feed the resident
 <p>The black and white enemy will cause your score to reset to 0, which can used to your advantage if your socre goes below zero and into the negative figures, the other enemies simply caused damage.
     The game has both a good and bad ending, to get the good ending you must have a score above 0, you will be taken to a screen with peaceful music and a poem about Utopia. The bad ending is acquired by scoring below 0, you will be taken to a black and red screen where a negative poem is displayed and you are scolded for your play style
 </p>
+
 <h2> Game Elements</h2>
 <img id = "goodEnd" src = "{base}/goodEnding.png" alt = "screenshot of the good ending from my game">
 <p>The game has a simple ranking system, which works by taking your current score and comparing it to values in a large if statement, if you score falls between certain values i.e. 0 - 100, you will be given the corresponding rank, 
@@ -67,9 +68,12 @@ The goal of the game is too collect the fruit on the screen to feed the resident
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(200px));
         gap: 10px;
+        width: 100%;
+        max-width: 1200px;
         background-color: #ffffff88;
         padding: 30px;
         border: solid black 2px;
+        margin: 0 auto;
     }
 
     #gameplay {
@@ -171,6 +175,7 @@ a:hover {
         gap: 10px;
         background-color: #ffffff88;
         padding: 30px;
+        margin: 0 auto;
         border: solid black 2px;
     }
 
@@ -202,7 +207,7 @@ flex-direction: column;
 }
 
 #AMU {
-width: 350px; /*height stays auto for Herman Melville as the image looks bad with the wider stretched looks*/
+width: 350px; 
 height: auto;
 flex-direction: column;
 }
@@ -231,5 +236,56 @@ height: auto;
 flex-direction: column;
 }
 }
+
+@media (max-width: 1024px) {
+#gameplay {
+width: 650px;
+height: auto;
+flex-direction: column;
+}
+
+#shopForAB {
+width: 650px;
+height: auto;
+flex-direction: column;
+}
+
+p {
+    font-size: 20px;
+    padding: 10px;
+}
+
+#ABtitle {
+width: 650px;
+height: auto;
+flex-direction: column;
+}
+}
+
+@media (max-width: 624px) {
+#gameplay {
+width: 400px;
+height: auto;
+flex-direction: column;
+}
+
+#shopForAB {
+width: 400px;
+height: auto;
+flex-direction: column;
+}
+
+p {
+    font-size: 20px;
+    padding: 10px;
+}
+
+#ABtitle {
+width: 400px;
+height: auto;
+flex-direction: column;
+}
+}
+
 
 </style>

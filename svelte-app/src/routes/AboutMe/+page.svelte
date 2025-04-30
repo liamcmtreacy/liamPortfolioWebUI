@@ -30,16 +30,20 @@ I hope to obtain a career working in Animation, my ultimate goal would be to hav
 
 <style>
 
-.aboutGrid{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px));
-        gap: 10px;
-        background-color: #ffffff88;
-        border: solid black 2px;
-        padding: 30px;
-    }
+.aboutGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    background-color: #ffffff88;
+    width: 100%;
+    max-width: 1200px;
+    border: solid black 2px;
+    margin: 0 auto;
+    padding: 30px;
+}
 
     img {
+        max-width: 100%;
         border-radius: 10px;
         border: solid black 2px;
     }
@@ -81,7 +85,7 @@ p {
 h1 {
     font-size: 28px;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 h2 {
@@ -103,6 +107,34 @@ flex-direction: column;
 width: 350px;
 height: auto;
 flex-direction: column;
+}
+}
+
+@media (max-width: 1024px)
+{
+    .aboutGrid {
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px));
+        gap: 10px;
+        background-color: #ffffff88;
+        padding: 30px;
+        width: auto;
+        border: solid black 2px;
+    }
+
+h1 {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 125px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+p {
+    font-size: 24px;
 }
 }
 

@@ -59,14 +59,34 @@
         nav {
             width: 100%;
         }
-        
+        /*changed both NAV uls to a row, to look cleaner */
         nav ul {
-            flex-direction: column;
+            flex-direction: row;
             align-items: center;
         }
 
         nav ul li {
             margin: 10px 0;
         }
+}
+
+@media (max-width: 1024px) {
+    nav {
+        width: 100%;
+    }
+
+    nav ul {
+        flex-direction: row; /*As seen in Week 7 notes, row is default */
+        justify-content: center;
+    }
+
+    nav ul li {
+            margin: 11px 10px;
+        }
+
+        nav ul li a {
+           font-size: 13px;
+        }
+
 }
     </style>

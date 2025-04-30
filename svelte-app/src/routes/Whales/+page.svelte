@@ -48,7 +48,15 @@ a:hover {
             h1 {
         font-size: 36px;
         text-align: center;
-        margin-top: 250px;
+        margin-top: 50px;
+            }
+         }
+
+         @media (max-width: 624px) {
+            h1 {
+        font-size: 36px;
+        text-align: center;
+        margin-top: 50px;
             }
          }
 </style>
