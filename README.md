@@ -21,8 +21,8 @@ Lecturers: Libor Zachoval and Milu Phillip <br>
 # Notes
 All outside help has been recorded <br>
 There is still a slight error where when you are on a certain page, you cannot access another page, besides that everything seems to work perfectly fine <br>
-Tested responsiveness by shrinking the screen size, seems to be fully working. <br>
+Tested responsiveness by shrinking the screen size, seems to be fully working.(I have since learned it was in fact, not working fully) <br>
 Site has been added to my LinkedIn <br>
 
 # Live Link
-https://liamcmtreacy.github.io/liamPortfolioWebUI/ 
+https://liamcmtreacy.github.io/liamPortfolioWebUI/
