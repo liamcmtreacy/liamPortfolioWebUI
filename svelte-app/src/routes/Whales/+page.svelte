@@ -60,8 +60,8 @@ a:hover {
             }
          }
 </style>
-
-{@html `<style>
+<!----From previous Project, help from Libor-->
+{@html `<style> 
     @keyframes gifs { 
         0%, 100% { 
             background-image: url('${base}/whaleCrash.gif');

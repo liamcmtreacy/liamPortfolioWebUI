@@ -9,8 +9,8 @@ import {base} from '$app/paths';
 <img id = "mayaHou" src="{base}/mayaHouse.png" alt = "a house which is cream and red and was constructed in Maya, it has fences, grass and trees too.">
 <img id = "SCR" src="{base}/pubSketch.png" alt = "Doodle I did of two characters in my art style, drinking and smoking">
 
-<p> I always enjoyed Drawing and Sketching since I was young, my art style is admittedly rather goofy, however it is just second nature now. The two biggest inspirations for it was the Henry Stickman series of games, I used to play these 
-    a lot and would trace the characters, until I got a bit older and started adding more details, would I like to think was due to the fact I got better at drawing the older I got.
+<p> I have always enjoyed Drawing and Sketching since I was young, my art style is admittedly rather goofy, however it is just second nature now. The two biggest inspirations for my art style was the Henry Stickman series of games, I used to play these 
+    a lot and would trace the characters, until I got a bit older and started adding more details and progressively turning it into my own style.
 
     The other main inspiration was South Park, I always liked how the show had characters with rather exaggerated features, for example huge eyes, and how characters often had hats or clothing to help distinguish them.
 <p>
@@ -191,6 +191,51 @@ a:hover {
             }
 
          }
-         
-         
+        
+         @media (min-width: 360px) and (max-width: 600px){ /*Pasted from Games Page and MODIFIED */
+        .stylingDiv {
+        margin-top: 100px;
+        width: 80%;
+    }
+            h1 { 
+        font-size: 18px;
+        width: 180px;
+        margin-top: 50px;
+        word-wrap: break-word;
+            }
+            
+            h2 {
+                width: 300px;
+                font-size: 20px;
+            }
+            a { 
+    width: 175px;
+    align-items: center;
+}
+
+            p {
+    font-size: 16px;
+    width: 190px;
+    word-wrap: break-word;
+}
+
+#SCR {
+            width: 220px;
+            height: 150px;
+            flex-direction: row;
+            }
+
+            #mayaHou {
+            width: 220px;
+            height: 150px;
+            flex-direction: column;
+            }
+
+            #sprite {
+            width: 220px;
+            height: 200px;
+            flex-direction: column;
+            margin-right: 25px;
+            }
+         }
 </style>

@@ -10,7 +10,7 @@ import {base} from '$app/paths';
 
 <a href="{base}/liamCV.pdf" download="My_CV.pdf" aria-label="Download My CV"> <!---CV WHICH CAN BE DOWNLOADED, HELP FROM LIBOR-->
     <span aria-hidden="true">⬇️</span> Download My CV
-  </a>
+  </a> <!----brilliant CV by the way-->
 
 
 

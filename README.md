@@ -9,6 +9,7 @@ https://www.w3schools.com/howto/howto_css_rounded_images.asp Border Radius <br>
 https://www.w3schools.com/css/css3_transitions.asp CSS Transitions and Animations <br>
 https://www.browserstack.com/guide/ideal-screen-sizes-for-responsive-design Responsiveness Guidelines <br>
 https://zhangpascal.medium.com/how-to-keep-text-from-overflow-a-parent-element-width-f6877462d14 Responsiveness <br>
+
 Libor Zachoval Blackboard Notes
 
 # Personal Details

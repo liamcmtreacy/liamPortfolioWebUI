@@ -4,13 +4,13 @@ import {base} from '$app/paths';
 
 <div class = "grid01">
 <h1> So what exactly am I studying?</h1>
-
+<!----For a while I debated on keeping this page or not, keeping it purely so potential employers can look easily at the course-->
 <p> I am enrolled in a course in SETU Carlow called Computing in Interactive Digital Art and Design "IDAD". In this course we learn about 
     Animation, Game Design, Web Development and also learn about the industries and how to effectively work in them. I also plan to complete an animation masters in IADT.
 </p>
 
 <a href = "https://www.setu.ie/courses/bsc-hons-in-computing-in-interactive-digital-art-and-design">Link to information page for IDAD at SETU Carlow</a>
-<a href = "https://iadt.ie/courses/ma-animation/">IADT Animation Masters info page</a>
+<a href = "https://iadt.ie/courses/ma-animation/">IADT Animation Masters info page</a> <!---The Dream Masters-->
 </div>
 <style>
 
@@ -56,3 +56,4 @@ a:hover {
 }
 
 </style>
+<!---least interesting page, like nothing of note to say here-->

@@ -62,7 +62,7 @@ The goal of the game is too collect the fruit on the screen to feed the resident
 </div> <!----END OF THE THIRD PART-->
 </div> <!----END OF STYLE GRID-->
 
-<style>
+<style> /*pour a drink, you may be here a while */
 
 .style{
         display: grid;
@@ -165,7 +165,7 @@ a:hover {
     color: rgb(255, 255, 255);
 }
 
-  /*MOBILE RESPOVINESS TESTED BASICALLY ALL WITH TRIAL AND ERROR FOR THE SECOND TIME*/
+  /*MOBILE RESPOVINESS TESTED BASICALLY ALL WITH TRIAL AND ERROR FOR THE SECOND TIME (make that like the 9th time)*/
   @media (max-width: 768px) {
 
     .style {
@@ -329,6 +329,78 @@ flex-direction: column;
 }
 
          }
+
+         @media (min-width: 360px) and (max-width: 600px){ /*Everytime I push it live I check my phone and my families phones and come back. I THINK THIS IS THE FINAL ONE */
+        .style {
+        margin-top: 100px;
+        width: 80%;
+    }
+            h1 { /* help from site in README */
+        font-size: 18px;
+        width: 180px;
+        margin-top: 50px;
+        word-wrap: break-word;
+            }
+            
+            h2 {
+                width: 300px;
+                font-size: 20px;
+            }
+            a { 
+    width: 175px;
+    align-items: center;
+}
+
+            p {
+    font-size: 16px;
+    width: 190px;
+    word-wrap: break-word;
+}
+
+#ABtitle {
+width: 200px;
+height: auto;
+flex-direction: column;
+}
+
+#goodEnd {
+width: 200px;
+height: 100px;
+flex-direction: column;
+}
+
+#AMU {
+width: 200px; 
+height: auto;
+flex-direction: column;
+}
+
+#MMending { /* Web Dev can be draining*/
+width: 200px;
+height: auto;
+flex-direction: column;
+}
+
+#code {
+width: 200px;
+height: auto;
+flex-direction: column;
+}
+
+#gameplay {
+width: 200px;
+height: auto;
+flex-direction: column;
+}
+
+#shopForAB {
+width: 200px;
+height: auto;
+flex-direction: column;
+}
+
+         }
          
          
+       /*Too many lines of code on this page if you ask me */  
 </style>
