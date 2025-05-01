@@ -195,25 +195,25 @@ p {
 }
 
 #ABtitle {
-width: 350px;
+width: 250px;
 height: auto;
 flex-direction: column;
 }
 
 #goodEnd {
-width: 350px;
+width: 250px;
 height: auto;
 flex-direction: column;
 }
 
 #AMU {
-width: 350px; 
+width: 250px; 
 height: auto;
 flex-direction: column;
 }
 
 #MMending {
-width: 350px;
+width: 250px;
 height: auto;
 flex-direction: column;
 }
@@ -237,7 +237,7 @@ flex-direction: column;
 }
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
 #gameplay {
 width: 650px;
 height: auto;
@@ -262,30 +262,73 @@ flex-direction: column;
 }
 }
 
-@media (max-width: 624px) {
+
+@media (max-width: 624px) { 
+            .style {
+        margin-top: 100px;
+        width: 70%;
+    }
+            h1 { /* help from site in README */
+        font-size: 20px;
+        width: 250px;
+        margin-top: 50px;
+        word-wrap: break-word;
+            }
+
+            a { 
+    width: 200px;
+    align-items: center;
+}
+
+            p {
+    font-size: 16px;
+    width: 250px;
+    word-wrap: break-word;
+}
+
+#ABtitle {
+width: 250px;
+height: auto;
+flex-direction: column;
+}
+
+#goodEnd {
+width: 250px;
+height: 100px;
+flex-direction: column;
+}
+
+#AMU {
+width: 250px; 
+height: auto;
+flex-direction: column;
+}
+
+#MMending {
+width: 250px;
+height: auto;
+flex-direction: column;
+}
+
+#code {
+width: 250px;
+height: auto;
+flex-direction: column;
+}
+
 #gameplay {
-width: 400px;
+width: 250px;
 height: auto;
 flex-direction: column;
 }
 
 #shopForAB {
-width: 400px;
+width: 250px;
 height: auto;
 flex-direction: column;
 }
 
-p {
-    font-size: 20px;
-    padding: 10px;
-}
-
-#ABtitle {
-width: 400px;
-height: auto;
-flex-direction: column;
-}
-}
-
-
+         }
+         
+         
 </style>

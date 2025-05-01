@@ -89,4 +89,24 @@
         }
 
 }
+
+@media (max-width: 624px) {
+    nav {
+        width: 100%;
+    }
+
+    nav ul {
+        flex-direction: row; /*As seen in Week 7 notes, row is default */
+        justify-content: center;
+    }
+
+    nav ul li {
+            margin: 5px 5px;
+        }
+
+        nav ul li a {
+           font-size: 10px;
+        }
+
+}
     </style>

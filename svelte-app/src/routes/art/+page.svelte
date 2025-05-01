@@ -134,6 +134,8 @@ a:hover {
         margin-top: 100px;
             }
 
+            
+
             #SCR {
             width: 350px;
             height: auto;
@@ -153,5 +155,42 @@ a:hover {
             }
 
          }
+
+         @media (min-width: 500px) and (max-width: 624px) { /* TRIAL AND ERROR */
+            .stylingDiv {
+        margin-top: 100px;
+        width: 70%;
+    }
+            h1 {
+        font-size: 24px;
+        text-align: center;
+        margin-top: 100px;
+            }
+
+            p {
+    font-size: 16x;
+    padding: 10px;
+}
+
+            #SCR {
+            width: 250px;
+            height: 150px;
+            flex-direction: row;
+            }
+
+            #mayaHou {
+            width: 250px;
+            height: 150px;
+            flex-direction: column;
+            }
+
+            #sprite {
+            width: 250px;
+            height: 250px;
+            flex-direction: column;
+            }
+
+         }
+         
          
 </style>
