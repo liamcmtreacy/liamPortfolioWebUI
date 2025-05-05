@@ -15,7 +15,7 @@ Libor Zachoval Blackboard Notes
 # Personal Details
 Student Name: Liam Treacy <br>
 Student Num: C00298242 <br>
-Submission Date: Final Date of me pushing live was April 28th 2025. <br>
+Submission Date: First Date of me pushing live was April 28th 2025, however I had to make some changes, so the final date of it being pushed live was May 1st <br>
 Lecturers: Libor Zachoval and Milu Phillip <br>
 
 # Notes
