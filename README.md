@@ -1,4 +1,4 @@
-# liamPortfolioWebUIP Project
+# liamPortfolioWebUI Project
 Module: Web UI Design.
 
 # CODE CREDITS Which helped with the site
@@ -10,7 +10,7 @@ https://www.w3schools.com/css/css3_transitions.asp CSS Transitions and Animation
 https://www.browserstack.com/guide/ideal-screen-sizes-for-responsive-design Responsiveness Guidelines <br>
 https://zhangpascal.medium.com/how-to-keep-text-from-overflow-a-parent-element-width-f6877462d14 Responsiveness <br>
 
-Libor Zachoval Blackboard Notes
+Libor Zachoval Blackboard Notes, mainly Week 6 onwards
 
 # Personal Details
 Student Name: Liam Treacy <br>
@@ -21,8 +21,9 @@ Lecturers: Libor Zachoval and Milu Phillip <br>
 # Notes
 All outside help has been recorded <br>
 There is still a slight error where when you are on a certain page, you cannot access another page, besides that everything seems to work perfectly fine <br>
-Tested responsiveness by shrinking the screen size, seems to be fully working.(I have since learned it was in fact, not working fully) <br>
+Tested responsiveness by shrinking the screen size, seems to be fully working.(I have since learned it was in fact, not working fully), I have gone back and now it seems fully functional <br>
 Site has been added to my LinkedIn <br>
-
+Code has comments explaining my logic for something or if I got some outside help.
 # Live Link
 https://liamcmtreacy.github.io/liamPortfolioWebUI/
+
