@@ -1,5 +1,14 @@
 <script>
     import {base} from '$app/paths';
+    import {onMount} from 'svelte';
+    import {Card} from '$lib';
+    import {Modal} from '$lib';
+
+    let showModal = false;
+
+    onMount (() => {
+        console.log("About Page Loaded");
+    });
 </script>
 
 <div class = "aboutGrid">
@@ -24,6 +33,56 @@ I hope to obtain a career working in Animation, my ultimate goal would be to hav
 <p> On April 24th 2025, I had the pleasure of attending a Brown Bag Films event, where their staff gave talks about Storyboarding, the use of Unreal Engine in animation and Animation Directing, afterwards there was an hour for Networking where I had the chance to speak to their staff and talk, including co-founder Darrah O'Connell and Matthew Lloyd.
     I plan on attending more events in the future, and will update this as they happen.
 </p>
+
+<div class = "grid01">
+<h1> So what exactly am I studying?</h1>
+<!----For a while I debated on keeping this page or not, keeping it purely so potential employers can look easily at the course-->
+<p> I am enrolled in a course in SETU Carlow called Computing in Interactive Digital Art and Design "IDAD". In this course we learn about 
+    Animation, Game Design, Web Development and also learn about the industries and how to effectively work in them. I also plan to complete an animation masters in IADT.
+</p>
+
+<a href = "https://www.setu.ie/courses/bsc-hons-in-computing-in-interactive-digital-art-and-design">Link to information page for IDAD at SETU Carlow</a>
+<a href = "https://iadt.ie/courses/ma-animation/">IADT Animation Masters info page</a> <!---The Dream Masters-->
+</div>
+
+<h1> Here you can find any relevant contact information for me!</h1>
+
+<!---help from Libor restructing this site on project 1-->
+<!---Going to use custom drawings for the images-->
+<div class = "contactInfo">
+    <Card 
+        title = "Phone" 
+        src="{base}/phoneDraw.png"
+        alt="Drawing of Phone"
+        description ="My personal phone number is: 085-211-1818"
+    /> 
+    <Card 
+        title = "Github" 
+        src="{base}/githubDrawing.png" 
+        alt="Github DrawingS"
+        description = "If you would like to add me on Github, my name is Liamcmtreacy, you can also follow this link:
+        https://github.com/liamcmtreacy?tab=repositories"
+        />
+    <Card 
+        title = "Linkedin" 
+        src="{base}/linkedIN.png" 
+        alt="You will be redirected to my Linkedin if you use the link" 
+        description = "The following link will take you directly to my Linkedin: https://www.linkedin.com/in/liam-treacy-cw/"
+    />
+
+    <Card 
+        title = "Emails" 
+        src="{base}/emailDraw.png" 
+        alt="drawing of a blue envelope, used as the image to depict the contact email" 
+        description="If you would like to contact me via email, you can contact me personally by emailing Liamtreacy100@hotmail.com, or you can contact me via my college email by messaging C00298242@setu.ie"
+    />
+</div>
+
+<a href="{base}/liamcv.pdf" download="liamcv.pdf" aria-label="Download My CV"> <!---CV WHICH CAN BE DOWNLOADED, HELP FROM LIBOR-->
+    <span aria-hidden="true">⬇️</span> Download My CV
+  </a> <!----brilliant CV by the way-->
+
+
 
 </div>
 
@@ -61,6 +120,7 @@ h2 {
     font-size: 24px;
     font-weight: bold;
     text-align: center;
+     border-bottom: solid black 1px;
 }
 
 p {
@@ -69,6 +129,19 @@ p {
     text-align: left;
     padding: 10px;
 }
+
+
+    .contactInfo { /*PUT THEM ALL IN ONE DIV CLASS */
+        display: flex; 
+        align-content: center;
+        justify-content: space-between; /*allows white space */
+        word-spacing: normal;
+    }
+
+    .contactInfo:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /*only noticing that I originally had a space after the rgba which caused it to be white, fixed now */
+    }
 
 @media (max-width: 768px) {
 
@@ -81,6 +154,14 @@ p {
         padding: 30px;
         border: solid black 2px;
     }
+
+    .contactInfo {
+  flex-direction: column; /* TO HAVE THEM APPEAR ONE ON TOP OF ANOTHER */
+  gap: 25px;
+  padding: 10px;
+  align-items: center;
+  display: flex;
+}
 
 h1 {
     font-size: 28px;

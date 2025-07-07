@@ -8,10 +8,8 @@
         <li><a href = {`${base}/`}> Home Page</a></li>
         <li><a href = {`${base}/art`}> My Artwork</a></li>
         <li><a href = {`${base}/games`}> Games I have created</a></li>
-        <li><a href = {`${base}/college`}>My Studies</a></li>
-        <li><a href = {`${base}/Whales`}> The World of Whales </a></li>
-        <li><a href = {`${base}/contact`}> Contact Me </a></li>
-        <li><a href = {`${base}/AboutMe`}> About Me </a></li>
+        <li><a href = {`${base}/whales`}> Web Development </a></li>
+        <li><a href = {`${base}/aboutme`}> About Me </a></li>
     </ul>
 </nav>
 

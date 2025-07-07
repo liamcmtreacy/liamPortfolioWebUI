@@ -2,11 +2,13 @@
 import {base} from '$app/paths';
 </script>
 
+<h1> Website Development</h1>
+<p> During College I have learned to use HTML, CSS, Javascript and Svelte, currentl my portfolio and this group project are the main websites I have made, my game "Angry Man's Utopia" was made using HTML, CSS and Javascript</p>
 
 <h1>Here is the link to the website I made, as part of a group project</h1>
 <div class="gifBG">
     <div class="overlay"></div> <!-----hepl with background-->
-</div>
+</div> 
 <a href="https://liamcmtreacy.github.io/WebUI_LiamMikeyJess_groupProject/"> Link to The World of Whales</a> 
 <!---used same logic as links to parts of the same site, tested it with our website for an external link and works as intended-->
 
@@ -37,6 +39,13 @@ a {
     font-size: 20px;
     color: black;
     text-decoration: none;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    padding: 10px;
 }
 
 a:hover {

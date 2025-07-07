@@ -8,12 +8,6 @@ import {base} from '$app/paths';
 
 <h3>Have a look around, hopefully you like what you see!</h3>
 
-<a href="{base}/liamCV.pdf" download="My_CV.pdf" aria-label="Download My CV"> <!---CV WHICH CAN BE DOWNLOADED, HELP FROM LIBOR-->
-    <span aria-hidden="true">⬇️</span> Download My CV
-  </a> <!----brilliant CV by the way-->
-
-
-
 <style>
 
     h1 {
