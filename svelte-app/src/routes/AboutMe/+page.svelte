@@ -29,9 +29,9 @@ I hope to obtain a career working in Animation, my ultimate goal would be to hav
 </p>
 <img id="dingleTrio" src="{base}/dingleTrio.png" alt="group of us from Dingle">
 
-<h2>Brownbag Films </h2> <!----Never got the photos, so just imagine a picture of me and some of my classmates outside the Studio-->
-<p> On April 24th 2025, I had the pleasure of attending a Brown Bag Films event, where their staff gave talks about Storyboarding, the use of Unreal Engine in animation and Animation Directing, afterwards there was an hour for Networking where I had the chance to speak to their staff and talk, including co-founder Darrah O'Connell and Matthew Lloyd.
-    I plan on attending more events in the future, and will update this as they happen.
+<h2>Brownbag Films and Kilkenny animated </h2> <!----Never got the photos, so just imagine a picture of me and some of my classmates outside the Studio-->
+<p> On April 24th 2025, I had the pleasure of attending a Brown Bag Films event, where their staff gave talks about Storyboarding, the use of Unreal Engine in animation and Animation Directing, afterwards there was an hour for Networking where I had the chance to speak to their staff and talk, including co-founder Darragh O'Connell and Matthew Lloyd. Likewise with Kilkenny Animated, I was able to attend from October 3rd to October 5th, it was a great opportunity to meet other aspiring artists, and industry professionals.
+    <img id="kkSelfie" src="{base}/kkSelfie.jpg" alt="group of us from Kilkenny Animated">
 </p>
 
 <div class = "grid01">
@@ -78,7 +78,7 @@ I hope to obtain a career working in Animation, my ultimate goal would be to hav
     />
 </div>
 
-<a href="{base}/liamcv.pdf" download="liamcv.pdf" aria-label="Download My CV"> <!---CV WHICH CAN BE DOWNLOADED, HELP FROM LIBOR-->
+<a href="{base}/Liam_Treacy_CV.pdf" download="liamcv.pdf" aria-label="Download My CV"> <!---CV WHICH CAN BE DOWNLOADED, HELP FROM LIBOR-->
     <span aria-hidden="true">⬇️</span> Download My CV
   </a> <!----brilliant CV by the way-->
 
@@ -186,6 +186,13 @@ flex-direction: column;
 
 #dingleTrio {
 width: 350px;
+height: auto;
+flex-direction: column;
+}
+
+#kkSelfie {
+width: 350px;
+padding-top: 50px;
 height: auto;
 flex-direction: column;
 }
