@@ -1,0 +1,18 @@
+{
+	"/": [
+		"src/routes/+layout.js",
+		"src/routes/+layout.js"
+	],
+	"/AboutMe": [
+		"src/routes/+layout.js"
+	],
+	"/Whales": [
+		"src/routes/+layout.js"
+	],
+	"/art": [
+		"src/routes/+layout.js"
+	],
+	"/games": [
+		"src/routes/+layout.js"
+	]
+}
