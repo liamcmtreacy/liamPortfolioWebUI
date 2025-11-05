@@ -192,7 +192,6 @@ flex-direction: column;
 
 #kkSelfie {
 width: 350px;
-padding-top: 50px;
 height: auto;
 flex-direction: column;
 }
