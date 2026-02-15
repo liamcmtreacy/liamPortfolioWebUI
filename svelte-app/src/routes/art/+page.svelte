@@ -1,236 +1,176 @@
 <script>
-import {base} from '$app/paths';
+  import { base } from '$app/paths';
 </script>
 
-<div class = "stylingDiv">
+<div class="stylingDiv">
 
-    <h1> Welcome to my Art Page!</h1>
-    
-<img id = "mayaHou" src="{base}/mayaHouse.png" alt = "a house which is cream and red and was constructed in Maya, it has fences, grass and trees too.">
-<img id = "SCR" src="{base}/pubSketch.png" alt = "Doodle I did of two characters in my art style, drinking and smoking">
+  <h1>Art & Visual Work</h1>
 
-<p> I have always enjoyed Drawing and Sketching since I was young, my art style is admittedly rather goofy, however it is just second nature now. The two biggest inspirations for my art style was the Henry Stickman series of games, I used to play these 
-    a lot and would trace the characters, until I got a bit older and started adding more details and progressively turning it into my own style.
+  <p>
+    I have always enjoyed drawing and sketching from a young age. My art style
+    is admittedly a bit goofy, but at this point it feels second nature to me.
+    Over time it has slowly evolved into something that feels like my own.
+  </p>
 
-    The other main inspiration was South Park, I always liked how the show had characters with rather exaggerated features, for example huge eyes, and how characters often had hats or clothing to help distinguish them.
-<p>
-<!---oh man-->
-<a href="{base}/artwork.zip" download="liamTreacy_artwork.zip" aria-label="Download My Folder"> <!---FOLDER WHICH CAN BE DOWNLOADED, HELP FROM LIBOR-->
-    <span aria-hidden="true">⬇️</span> If you would like to access to a folder with more examples of my art, download this folder
+  <p>
+    Two of the biggest influences on my style were the <em>Henry Stickmin</em>
+    games, which I used to play (and trace) when I was younger, and
+    <em>South Park</em>, particularly its exaggerated character designs and
+    strong use of simple visual traits like hats and large eyes to distinguish
+    characters.
+  </p>
+
+  <div class="projectGrid">
+
+    <!-- 3D MODELLING -->
+    <div class="project">
+      <h2>3D Modelling – Maya</h2>
+
+      <img
+        class="projectImage"
+        src="{base}/mayaHouse.png"
+        alt="A house model created in Maya with fences, grass and trees"
+      />
+
+      <p>
+        This is a 3D environment piece created in Maya. I focused on clean,
+        readable shapes and colour contrast rather than realism, as I prefer
+        stylised visuals that feel approachable and clear.
+      </p>
+    </div>
+
+    <!-- SKETCHES -->
+    <div class="project">
+      <h2>Sketches & Character Art</h2>
+
+      <img
+        class="projectImage"
+        src="{base}/pubSketch.png"
+        alt="Doodle of two characters in my art style drinking and smoking"
+      />
+
+      <p>
+        Most of my 2D work revolves around loose sketches and character designs.
+        I tend to exaggerate proportions and facial features, leaning into a
+        cartoon style that prioritises personality over realism.
+      </p>
+    </div>
+
+    <!-- ANIMATION -->
+    <div class="project">
+      <h2>Animation</h2>
+
+      <video class="projectVideo" controls preload="metadata">
+        <source src="/starFishedited.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+      <p>
+        This is a short animation project focusing on movement, timing and visual
+        clarity. I enjoy animation as a way to bring the characters and styles I
+        draw to life, even in small, simple pieces like this.
+      </p>
+    </div>
+
+  </div>
+
+  <a
+    href="{base}/artwork.zip"
+    download="liamTreacy_artwork.zip"
+    aria-label="Download my artwork folder"
+  >
+    ⬇️ Download a folder with more examples of my artwork
   </a>
-<!----So originally I had I created a folder on OneDrive and attached a link, however the link always seemed to not work, so then I tried downloading the folder frmo the onedrive and attaching it, i did not work,
-so then I tried to create a new folder on my laptop, then port over the materials and then put it into the project, and this finally worked-->
-<!----PROCESS was a lot of trial and error, I used the code Libor provided for the download and tried rework it-->
+
 </div>
+
 <style>
+  .stylingDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #ffffff88;
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    border: solid black 2px;
+  }
 
-.stylingDiv{ /* HELP FROM FLEXBOX NOTES */
-        display: flex;
-        gap: 10px;
-        background-color: #ffffff88;
-        padding: 30px;
-        width: 100%;
-        max-width: 1200px;
-        justify-content: center;
-        border: solid black 2px;
-        flex-direction: column;
-        margin: 0 auto;
-    }
-
-h1 {
+  h1 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 32px;
-    font-weight: bold;
     text-align: center;
     border-bottom: solid black 2px;
-}
+  }
 
-p {
+  h2 {
     font-family: 'Times New Roman', Times, serif;
-    text-align: left;
+    font-size: 26px;
+  }
+
+  p {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    padding: 10px;
-}
+  }
 
-#mayaHou {
-    width: 500px;
-    align-items: center;
-        height: auto;
-        border: solid black 2px;
-        border-radius: 10px;
-}
+  .projectGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
 
-#sprite { width: 500px;
-    align-items: center;
-        height: auto;
-        border: solid black 2px;
-        border-radius: 10px;
-}
+  .project {
+    padding-bottom: 20px;
+    border-bottom: solid black 2px;
+  }
 
-a { 
+  .projectImage {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    border: solid black 2px;
+    border-radius: 10px;
+    margin: 15px 0;
+  }
+
+  .projectVideo {
+    width: 100%;
+    max-width: 700px;
+    border: solid black 2px;
+    border-radius: 10px;
+    margin: 15px 0;
+    background: black;
+  }
+
+  a {
     display: block;
     text-align: center;
     font-size: 20px;
     color: black;
     text-decoration: none;
-}
-
-a:hover {
-    background-color: rgb(148, 60, 2);
-    color: rgb(255, 255, 255);
-}
-
-#SCR {
-    width: auto;
-        height: auto;
-        border: solid black 2px;
-        border-radius: 10px;
-}
-
-@media (max-width: 768px) {
-
-    .stylingDiv {
-        margin-top: 100px;
-        margin: 0 auto;
-    }
-            h1 {
-        font-size: 36px;
-        text-align: center;
-        margin-top: 100px;
-            }
-
-            #SCR {
-            width: 350px;
-            height: auto;
-            flex-direction: column;
-            }
-
-            #mayaHou {
-            width: 350px;
-            height: auto;
-            flex-direction: column;
-            }
-
-            #sprite {
-                width: 350px;
-            height: auto;
-            flex-direction: column;
-            }
-
-         }
-
-         @media (max-width: 1024px) {
-            .stylingDiv {
-        margin-top: 100px;
-    }
-            h1 {
-        font-size: 40px;
-        text-align: center;
-        margin-top: 100px;
-            }
-
-            
-
-            #SCR {
-            width: 350px;
-            height: auto;
-            flex-direction: row;
-            }
-
-            #mayaHou {
-            width: 300px;
-            height: auto;
-            flex-direction: column;
-            }
-
-            #sprite {
-            width: auto;
-            height: auto;
-            flex-direction: column;
-            }
-
-         }
-
-         @media (min-width: 500px) and (max-width: 624px) { /* TRIAL AND ERROR */
-            .stylingDiv {
-        margin-top: 100px;
-        width: 70%;
-    }
-            h1 {
-        font-size: 24px;
-        text-align: center;
-        margin-top: 100px;
-            }
-
-            p {
-    font-size: 16x;
     padding: 10px;
-}
+  }
 
-            #SCR {
-            width: 250px;
-            height: 150px;
-            flex-direction: row;
-            }
+  a:hover {
+    background-color: rgb(148, 60, 2);
+    color: white;
+  }
 
-            #mayaHou {
-            width: 250px;
-            height: 150px;
-            flex-direction: column;
-            }
-
-            #sprite {
-            width: 250px;
-            height: 250px;
-            flex-direction: column;
-            }
-
-         }
-        
-         @media (min-width: 360px) and (max-width: 600px){ /*Pasted from Games Page and MODIFIED */
-        .stylingDiv {
-        margin-top: 100px;
-        width: 80%;
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 22px;
     }
-            h1 { 
-        font-size: 18px;
-        width: 180px;
-        margin-top: 50px;
-        word-wrap: break-word;
-            }
-            
-            h2 {
-                width: 300px;
-                font-size: 20px;
-            }
-            a { 
-    width: 175px;
-    align-items: center;
-}
 
-            p {
-    font-size: 16px;
-    width: 190px;
-    word-wrap: break-word;
-}
+    h2 {
+      font-size: 20px;
+    }
 
-#SCR {
-            width: 220px;
-            height: 150px;
-            flex-direction: row;
-            }
+    p {
+      font-size: 16px;
+    }
 
-            #mayaHou {
-            width: 220px;
-            height: 150px;
-            flex-direction: column;
-            }
-
-            #sprite {
-            width: 220px;
-            height: 200px;
-            flex-direction: column;
-            margin-right: 25px;
-            }
-         }
+    a {
+      font-size: 16px;
+    }
+  }
 </style>

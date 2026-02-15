@@ -1,110 +1,68 @@
 <script>
-	import Page from "../../routes/+page.svelte";
-    import {base} from '$app/paths';
- 
+	import { base } from '$app/paths';
 </script>
+
 <nav>
-    <ul>
-        <li><a href = {`${base}/`}> Home Page</a></li>
-        <li><a href = {`${base}/art`}> My Artwork</a></li>
-        <li><a href = {`${base}/games`}> Games I have created</a></li>
-        <li><a href = {`${base}/Whales`}> Web Development </a></li>
-        <li><a href = {`${base}/AboutMe`}> About Me </a></li>
-    </ul>
+	<ul>
+		<li><a href="{base}/">Home Page</a></li>
+		<li><a href="{base}/art">My Artwork</a></li>
+		<li><a href="{base}/games">Games I have created</a></li>
+		<li><a href="{base}/webDev">Web Development</a></li>
+		<li><a href="{base}/AboutMe">About Me</a></li>
+	</ul>
 </nav>
 
-    <style>
-
-        nav {
-            background-color: #000000;
-            top: 0%; /*added due to responsivenss errors */
-            left: 0; /* The Nav Bar for some reason is off, so used this to put in the right place, originally did trial and error with Margin-Left but found this works better */
-            width: 100%;
-            position: fixed; /*Found online, that this will keep the NAV Bar from scrolling, I think this could be a good feature have as it could allow for ease of access to other pages */
-        }
-
-        nav ul {
-            list-style: none;
-            padding: 10px;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-        }
-    
-        nav ul li {
-            margin: 0 70px;
-        }
-    
-        nav ul li a {
-            text-decoration: none;
-            color: rgb(255, 255, 255);
-            font-weight: bold;
-            font-family: 'Courier New', Courier, monospace;
-            position: relative;
-            transition: 0.4s ease; /* from Blackboard Week 6.1 Notes, used on Nav Bar for a nice feel */
-        }
-
-        nav ul li a:hover {
-         color: rgb(255, 85, 0);
-        }
- 
-        nav a:hover {
-         cursor: pointer;
-         background-color: rgba(255, 255, 255, 0.753);
-        }
-
-        @media (max-width: 768px) {
-        nav {
-            width: 100%;
-        }
-        /*changed both NAV uls to a row, to look cleaner */
-        nav ul {
-            flex-direction: row;
-            align-items: center;
-        }
-
-        nav ul li {
-            margin: 10px 0;
-        }
+<style>
+nav {
+	background-color: #000;
+	top: 0;
+	left: 0;
+	width: 100%;
+	position: fixed;
+	z-index: 1000; /* prevents weird overlap bugs */
 }
 
+nav ul {
+	list-style: none;
+	padding: 10px;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+}
+
+nav ul li {
+	margin: 0 70px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-family: 'Courier New', Courier, monospace;
+	transition: 0.3s ease;
+}
+
+nav ul li a:hover {
+	color: rgb(255, 85, 0);
+}
+
+/* Tablet */
 @media (max-width: 1024px) {
-    nav {
-        width: 100%;
-    }
-
-    nav ul {
-        flex-direction: row; /*As seen in Week 7 notes, row is default */
-        justify-content: center;
-    }
-
-    nav ul li {
-            margin: 11px 10px;
-        }
-
-        nav ul li a {
-           font-size: 13px;
-        }
-
+	nav ul li {
+		margin: 0 15px;
+	}
+	nav ul li a {
+		font-size: 13px;
+	}
 }
 
+/* Mobile */
 @media (max-width: 624px) {
-    nav {
-        width: 100%;
-    }
-
-    nav ul {
-        flex-direction: row; /*As seen in Week 7 notes, row is default */
-        justify-content: center;
-    }
-
-    nav ul li {
-            margin: 5px 5px;
-        }
-
-        nav ul li a {
-           font-size: 10px;
-        }
-
+	nav ul li {
+		margin: 0 6px;
+	}
+	nav ul li a {
+		font-size: 11px;
+	}
 }
-    </style>
+</style>
