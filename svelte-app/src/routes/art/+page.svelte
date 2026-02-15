@@ -61,7 +61,7 @@
       <h2>Animation</h2>
 
       <video class="projectVideo" controls preload="metadata">
-        <source src="/starFishedited.mp4" type="video/mp4" />
+        <source src="{base}/starFishedited.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 

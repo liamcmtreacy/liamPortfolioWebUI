@@ -133,6 +133,28 @@
       </a>
     </div>
 
+    <!-- MAGNET MISADVENTURE -->
+    <div class="project">
+      <h2>An Phiast's Decisions</h2>
+       <p class="tech">HTML, CSS JavaScript & Teamwork</p>
+
+      <p>
+        An Phiast's Decisions was a project for the third-year module
+        <em>Interactive Content Creation</em>. It was created for the Dingle Animation festival competition, although our game was not selected, it was a great experience
+      </p>
+
+      <p>
+        The player controls An Phiast, the idea of the game is a choose your own adventure game, the game has 3 levels, each level is supposed to demonstrate different aspects of the game.
+      </p>
+
+      <img class="projectImage" src="{base}/APD_Image.png"
+        alt="An Phiast's Decisions">
+
+      <a href="https://github.com/liamcmtreacy/LiamJeffreyOla_AnPhiast" target="_blank">
+        View GitHub Repository
+      </a>
+    </div>
+
   </div>
 </div>
 
