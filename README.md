@@ -25,5 +25,5 @@ Tested responsiveness by shrinking the screen size, seems to be fully working.(I
 Site has been added to my LinkedIn <br>
 Code has comments explaining my logic for something or if I got some outside help.
 # Live Link
-https://liamcmtreacy.github.io/liamPortfolioWebUI/
+https://liamcmtreacy.github.io/liamPortfolioWebUI/ Update to date version
 
