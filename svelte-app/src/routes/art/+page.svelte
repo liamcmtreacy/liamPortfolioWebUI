@@ -24,7 +24,7 @@
 
     <!-- 3D MODELLING -->
     <div class="project">
-      <h2>3D Modelling – Maya</h2>
+      <h2>3D Modelling: Maya/Blender</h2>
 
       <img
         class="projectImage"
@@ -45,14 +45,14 @@
 
       <img
         class="projectImage"
-        src="{base}/pubSketch.png"
+        src="{base}/SCR_sunset.png"
         alt="Doodle of two characters in my art style drinking and smoking"
       />
 
       <p>
         Most of my 2D work revolves around loose sketches and character designs.
         I tend to exaggerate proportions and facial features, leaning into a
-        cartoon style that prioritises personality over realism.
+        cartoon style that prioritises personality over realism. Inspirations include Ren and Stimpy, The Simpsons, South Park, Sonic The Hedgehog and Mr Men.
       </p>
     </div>
 

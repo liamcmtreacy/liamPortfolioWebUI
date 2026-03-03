@@ -16,32 +16,37 @@
 	</h2>
 
 	<p class="goal fadeIn delay3">
-		Aspiring animator and creative developer focused on storytelling,
-		character animation and stylised visuals.
+		Wanna be animator and creative developer, passionite in storytelling,
+		character animation and all around creative work.
 	</p>
 
-	<!-- MAIN IMAGE -->
 	<div class="imageWrap fadeIn delay4">
 		<img
 			id="me"
 			src="{base}/kkAnimated.jpeg"
-			alt="Group picture at Kilkenny Animated"
+			alt="Group of us at Kilkenny Animated"
 		/>
-		<p class="caption">
-			From Kilkenny Animated — one of the best experiences so far.
-		</p>
 	</div>
 
-	<!-- FEATURED WORK -->
 	<div class="featured fadeIn delay5">
-		<h2>Featured Work</h2>
+		<h2>What you can expect to see!</h2>
 
-		<div class="grid">
+	<div class="grid">
+		<div class="card">
 			<img src="{base}/character.png" alt="2D Illustration" />
-			<img src="{base}/SCR.png" alt="Idea for cartoon " />
-			<img src="{base}/blender.png" alt="3D Model" />
+			<p>2D Character Illustations</p>
 		</div>
-	</div>
+
+		<div class="card">
+			<img src="{base}/codeHome.png" alt="Proof I can code" />
+			<p>Code Based Projects</p>
+		</div>
+
+		<div class="card">
+			<img src="{base}/testBlender.png" alt="3D Model" />
+			<p>3D Modelling</p>
+		</div>
+</div>
 
 	<h3 class="fadeIn delay6">
 		Have a look around — hopefully you like what you see
@@ -51,6 +56,7 @@
 		Explore my animation, games and artwork using the navigation above.
 	</p>
 
+</div>
 </div>
 
 <style>
@@ -63,7 +69,6 @@
 	gap: 25px;
 }
 
-/* TEXT STYLE */
 h1 {
 	font-family: 'Times New Roman', Times, serif;
 	color: black;
@@ -90,7 +95,6 @@ h3 {
 	letter-spacing: 1px;
 }
 
-/* GOAL STATEMENT */
 .goal {
 	text-align: center;
 	font-family: 'Times New Roman', Times, serif;
@@ -98,7 +102,6 @@ h3 {
 	opacity: 0.9;
 }
 
-/* IMAGE */
 .imageWrap {
 	display: flex;
 	flex-direction: column;
@@ -114,48 +117,71 @@ h3 {
 	border-radius: 10px;
 	transition: transform 0.3s ease;
 	animation: float 6s ease-in-out infinite;
+	border: 2px solid black;  
 }
 
 #me:hover {
 	transform: scale(1.02);
 }
 
-.caption {
-	font-family: 'Times New Roman', Times, serif;
-	font-size: 16px;
-	opacity: 0.8;
-}
 
-/* FEATURED WORK */
+/* my own work that I made */
 .featured {
 	text-align: center;
 	margin-top: 20px;
 }
 
+.featured {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.featured {
+	text-align: center;
+	margin-top: 30px;
+}
+
 .grid {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-	gap: 20px;
-	margin-top: 15px;
+	grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+	gap: 30px;
+	margin-top: 25px;
 }
 
-.grid img {
+/*  card style */ /*took forever to get right */
+.card {
+	background: #f4e1a1;
+	border-radius: 18px;            
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	border: 2px solid black;          /* LOOKS nice in my opinion */
+}
+
+.card img {
 	width: 100%;
-	height: 100%; /* forces same height */
-	object-fit: cover; /* crops instead of stretching */
-	border-radius: 8px;
-	border: 2px solid black;
-	transition: transform 0.25s ease, box-shadow 0.25s ease;
-	background: #eee; /* prevents ugly gaps while loading */
+	height: 240px;
+	object-fit: contain;
+	border-radius: 14px;              
+	border: 2px solid black;         
+	background: white;                
+	padding: 8px;                   
 }
 
-.grid img:hover {
-	transform: scale(1.05);
-	box-shadow: 0 6px 14px rgba(0,0,0,0.2);
+.card p {
+	margin-top: 12px;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 18px;
+	font-weight: bold;
 }
 
+.card:hover {
+	transform: translateY(-8px);
+	box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+}
 
-/* NAV HINT */
 .navHint {
 	text-align: center;
 	font-family: 'Times New Roman', Times, serif;
@@ -163,18 +189,16 @@ h3 {
 	opacity: 0.75;
 }
 
-/* BACKGROUND */
 :global(body) {
-	background-color: burlywood;
+	background-color: #f2e3c6;
 }
 
-/* FADE ANIMATION */
 .fadeIn {
 	opacity: 0;
 	transform: translateY(15px);
 	animation: fadeUp 0.7s ease forwards;
 }
-
+/* Animation delay to make page more dynamic-ish */
 .delay1 { animation-delay: 0.2s; }
 .delay2 { animation-delay: 0.35s; }
 .delay3 { animation-delay: 0.5s; }
@@ -190,20 +214,22 @@ h3 {
 	}
 }
 
-/* FLOAT EFFECT */
 @keyframes float {
 	0%, 100% { transform: translateY(0); }
 	50% { transform: translateY(-6px); }
 }
 
-/* MOBILE */
 @media (max-width: 768px) {
 	.homeWrapper {
-		margin-top: 140px; /* space for fixed nav */
+		margin-top: 140px;
 	}
 
 	h1 { font-size: 36px; }
 	h2 { font-size: 20px; }
 	h3 { font-size: 18px; }
+
+	.grid img {
+		height: 180px; /* slightly smaller on mobile */
+	}
 }
-</style> 
+</style>

@@ -93,7 +93,7 @@
     <!-- ARTEFACT BRAWLER -->
     <div class="project">
       <h2>Artefact Brawler</h2>
-      <p class="tech">Group Project – Game Design</p>
+      <p class="tech">C++ & SFML </p>
 
       <p>
         Artefact Brawler was our final group project for the <em>Game Design</em>
@@ -136,7 +136,7 @@
     <!-- MAGNET MISADVENTURE -->
     <div class="project">
       <h2>An Phiast's Decisions</h2>
-       <p class="tech">HTML, CSS JavaScript & Teamwork</p>
+       <p class="tech">HTML, CSS & JavaScript</p>
 
       <p>
         An Phiast's Decisions was a project for the third-year module
